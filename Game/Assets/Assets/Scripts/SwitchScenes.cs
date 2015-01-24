@@ -84,4 +84,9 @@ public class SwitchScenes : MonoBehaviour {
 	{
 		currentScene = 1;
 	}
+
+	public int GetCurrentScene()
+	{
+		return currentScene;
+	}
 }
