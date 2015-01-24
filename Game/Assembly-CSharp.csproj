@@ -49,6 +49,7 @@
      <Compile Include="Assets\Assets\Scripts\Click_Place_Script.cs" />
      <Compile Include="Assets\Assets\Scripts\Holder_Script.cs" />
      <Compile Include="Assets\Assets\Scripts\Holders_Manager_Script.cs" />
+     <Compile Include="Assets\Assets\Scripts\SwitchScenes.cs" />
      <Compile Include="Assets\BubbleInput.cs" />
      <Compile Include="Assets\HolderScript.cs" />
      <Compile Include="Assets\ShakeSprite.cs" />
