@@ -3,28 +3,48 @@ using System.Collections.Generic;
 
 public class DialogueLines : MonoBehaviour
 {
+    Dictionary<string, string> Words = new Dictionary<string, string>();
+    Dictionary<string, string> Phrases = new Dictionary<string, string>();
 
     // Use this for initialization
     void Start()
     {
-        Dictionary<string, string> Lines = new Dictionary<string, string>();
+        // Scene 1
+        Words.Add("BedroomPhrase1Word1", "get");
+        Words.Add("BedroomPhrase1Word2", "out");
+        Words.Add("BedroomPhrase1Word3", "of");
+        Words.Add("BedroomPhrase1Word4", "bed");
 
-        // Site A
-        Lines.Add("ALine1", "123123");
-        Lines.Add("ALine2", "123123");
+        Phrases.Add("BedroomPhrase1", "get out of bed");
 
         // Site B
-        Lines.Add("BLine1", "123123");
-        Lines.Add("BLine2", "123123");
+        Words.Add("BLine1", "123123");
+        Words.Add("BLine2", "123123");
 
         // Site C
-        Lines.Add("CLine1", "123123");
-        Lines.Add("CLine2", "123123");
+        Words.Add("CLine1", "123123");
+        Words.Add("CLine2", "123123");
     }
 
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    string getWord(string key)
+    {
+        return Words[key];
+    }
+
+    bool compareWords(string[] order, int phraselength)
+    {
+        // List chosen words in order 
+        string input = order[0];
+        for (int i = 1; i < phraselength; i++)
+        {
+            input = input + order[i];
+        }
+        return false;
     }
 }
