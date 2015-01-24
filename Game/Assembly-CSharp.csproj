@@ -47,6 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Text.cs" />
+     <Compile Include="Assets\Assets\Scripts\Click_Place_Script.cs" />
+     <Compile Include="Assets\Assets\Scripts\Holder_Script.cs" />
+     <Compile Include="Assets\Assets\Scripts\Holders_Manager_Script.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
